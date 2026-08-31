@@ -1,0 +1,21 @@
+c = 'string.py'
+c.startswith('str')
+True
+c.startswith('python')
+c.startswith('python')
+False
+c.endswith('py')
+True
+c.islower()
+True
+c.isupper()
+False
+'SAI'.isupper()
+True
+c.isalpha()
+False
+c.isalnum()
+False
+'sai2005'.isalnum()
+True
+'sai.2005'.isalnum()
